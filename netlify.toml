@@ -2,6 +2,10 @@
   command = "npm run build"
   publish = "dist"
 
+# Set VITE_CONVEX_URL in Netlify Dashboard → Site Settings → Environment Variables
+# Use your Convex PRODUCTION URL from: npx convex deploy
+# Example: VITE_CONVEX_URL = "https://your-production-deployment.convex.cloud"
+
 # SPA fallback - redirect all routes to index.html
 [[redirects]]
   from = "/*"
