@@ -6,7 +6,7 @@ import { SimpleView } from "./components/SimpleView";
 type ViewMode = "simple" | "advanced";
 
 export default function App() {
-  const [viewMode, setViewMode] = useState<ViewMode>("advanced");
+  const [viewMode, setViewMode] = useState<ViewMode>("simple");
 
   return (
     <div className="min-h-screen flex flex-col bg-[#faf8f5]">
